@@ -1,0 +1,62 @@
+
+body {
+    margin-top: 105px; }
+  
+  .navbar {
+    box-shadow: 2px 2px 5px #3292a6;
+    opacity: 0.9;
+    background: #fff; }
+    .navbar .nav-item {
+      font-size: 1.4rem;
+      padding-right: 20px; }
+
+      #showcase{
+          position: relative;
+        background: url("../Project/GW.jpg");
+        min-height: 600px;}
+        #showcase 
+        .primary-overlay{
+            position: absolute;
+            top:0;
+            left:0;
+            width:100%;
+            height:100%;
+        
+        }
+        #showcase3{
+          position: relative;
+        background: url("../Project/GW3.jpg");
+        min-height: 600px;}
+        #showcase3 
+        .primary-overlay{
+            position: absolute;
+            top:0;
+            left:0;
+            width:100%;
+            height:100%;
+        
+        }
+        
+          
+          /* Add rounded corners to the top left and the top right corner of the image */
+          img {
+            border-radius: 5px 5px 0 0;
+          }
+          /*cards*/
+    #text1 {
+       text-align: center; 
+    }
+    .counter {
+        font-size: 20px; font-weight: 500;
+    }
+    .form {
+      color: rgb(255, 255, 255);
+text-align: center;
+width: 600px;
+border: 2px solid rgb(0, 0, 0);
+box-shadow: 2px 2px 5px #e75c0c;
+padding: 30px;
+font-weight: 300px;
+
+    background: rgba(4, 1, 24, 0.7);
+}

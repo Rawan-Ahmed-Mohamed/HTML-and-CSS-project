@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootstrap 4 Starter Pack</title>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="Project.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+
+<body >
+    <section id="showcase3" class="py-5">
+    <nav class="navbar navbar-expand-md navbar-light fixed-top py-4">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">
+                <img src="101.jpg" width="50" height="50" alt="">
+                <h3 class="d-inline align-middle">101</h3>
+            </a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav"><span
+                    class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="Project.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="Page2.html" class="nav-link">Solutions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="Page3.html" class="nav-link">Survey</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <br><br><br><br><br>
+    <div style="
+    align-content: center; margin-left: 360px;">
+    <form action="survey.cgi" method="POST" class="form" >
+        Please enter your name:
+        <input type="text" name="UserName" size=35 maxlength=50 value="">
+        <br>
+        <br>
+        Please enter your base salary:
+        <input type="text" name="BaseSalary" size=15 maxlength=15 value="$">
+        <br>
+        <br>
+        Insert your resume in the box below:
+        <br>
+        
+        <TEXTAREA name="Comments" cols=60 rows=6></TEXTAREA>
+        <br>
+        <br>
+        Please indicate the sources you use to locate job applicants:
+        <br>
+        
+        <p>
+            
+            <input type="checkbox" name="AppSourceNewspaper">Newspaper
+            <input type="checkbox" name="AppSourceRecruiter">Recruiters
+            <input type="checkbox" name="AppSourceWeb">Web Resume Banks
+            <input type="checkbox" name="AppSourceMagazines">Magazines
+        </p>
+        Please indicate which of the following sources is most successful for you in locating job applicants:
+        <br>
+        <p>
+            <input type="radio" name="AppSource" value=1>Newspaper
+            <input type="radio" name="AppSource" value=2>Recruiters
+            <input type="radio" name="AppSource" value=3>Web Resume Banks
+            <input type="radio" name="AppSource" value=4>Magazines
+        </p>
+        <br>
+        <br>
+        Select your state:
+        
+        <select name="State">
+            <OPTION VALUE=>
+            <OPTION VALUE=AL>Alabama
+            <OPTION VALUE=AK>Alaska
+            <OPTION VALUE=AZ>Arizona
+            <OPTION VALUE=PA>Pennsylvania
+            <OPTION VALUE=MN>Minnesota
+        </select>
+        <br>
+        <br>
+        Your Department:
+        <SELECT NAME="Department">
+            <OPTION>
+            <OPTION VALUE=1>Accounting
+            <OPTION VALUE=2>Sales
+            <OPTION VALUE=3>Marketing
+            <OPTION VALUE=4>Administration
+            <OPTION VALUE=5>Field Service
+        </SELECT>
+        <br>
+        <br>
+        Years of Service
+        <SELECT NAME="Service">
+            <OPTION>
+            <OPTION VALUE=1>0 - 5 years
+            <OPTION VALUE=2>6 - 10 years
+            <OPTION VALUE=3>11 - 15 years
+            <OPTION VALUE=4>16 - 20 years
+            <OPTION VALUE=5>21 - 25 years
+            <OPTION VALUE=6>26 - 30 years
+            <OPTION VALUE=7>31 plus years
+        </SELECT>
+        <br>
+        <br>
+        Age (optional)
+        <SELECT NAME="MyAge">
+            <OPTION>
+            <OPTION VALUE=1>Less than 20 yrs
+            <OPTION VALUE=2>20 - 25 yrs
+            <OPTION VALUE=3>26 - 30 yrs
+            <OPTION VALUE=4>31 - 35 yrs
+            <OPTION VALUE=5>36 - 40 yrs
+            <OPTION VALUE=6>41 - 45 yrs
+            <OPTION VALUE=7>46 - 50 yrs
+            <OPTION VALUE=8>51 - 55 yrs
+            <OPTION VALUE=9>56 - 60 yrs
+            <OPTION VALUE=10>61 plus
+        </SELECT>
+        <br>
+        <br>
+        <input type=submit value="submit"  > <input type=submit value="Reset">
+    </form>
+</div>
+</section>
+
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/navbar-fixed.js"></script>
+</body>
+
+</html>
